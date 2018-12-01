@@ -7,12 +7,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     messaging \
     WeatherClient \
-    WellbeingPrebuilt
-
-#ifeq ($(AOSIP_BUILDTYPE), Official)
-#    PRODUCT_PACKAGES += \
-#        Updater
-#endif
+    WellbeingPrebuilt \
+    Updater
 
 # Turbo
 PRODUCT_PACKAGES += \
